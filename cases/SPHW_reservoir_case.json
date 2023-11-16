@@ -1,0 +1,41 @@
+{
+	"info": "This is a input file",
+
+	"geometry": "SPHW",
+
+    "boundaries": "reservoirs",
+
+	"pars": {
+		"VR": 1,
+		"M": 1,
+		"xi": 0.1,
+
+		"pU": 1,
+		"pD": 0,
+
+		"epsilon":  0.2,
+		"betaIbar": 0.25,
+		"betaObar": 0.5,
+
+		"c":   0.2,
+		"k0I": 0.5,
+		"k1I": 0,
+		"k0O": 0.5,
+		"k1O": 0
+		},
+
+	"control":
+	{
+		"solver":   "linearSolver",
+		"debug":    true
+	},
+
+	"plotConfig":
+	{
+		"res":        100,
+		"omegaMin":   0,
+		"omegaMax":   10,
+		"savePlot":   true
+	}
+
+}
